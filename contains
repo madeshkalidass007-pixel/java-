@@ -1,0 +1,8 @@
+#contains
+class main{
+    public static void main(String[] args){
+        String s1 = "Stephen";
+        String s2 = "Step";
+        System.out.println(s1.contains(s2));
+    }
+}
