@@ -1,0 +1,8 @@
+#copyofvalue
+class main{
+    public static void main(String[] args){
+        char[] name = {'d', 'o', 'g'};
+        String s = String.copyValueOf(name);
+        System.out.println(s);
+    }
+}
